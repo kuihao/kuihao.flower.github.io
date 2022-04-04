@@ -1,0 +1,74 @@
+.hero-image.has-image{display:none;}
+.blogger{display:none;}
+/*.centered-bottom{display:none;}*/
+
+#Header1{
+text-align: center;
+}
+
+#Image1_img{
+display:block; 
+margin:auto;
+clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+height:280px;
+width:280px
+}
+
+#LinkList1 > h3{
+text-align: center;
+color: black;
+font-size: 20px;
+}
+
+#LinkList1 > div > ul{
+background-color: #ffefac;
+}
+
+#LinkList1 > div > ul > li{
+list-style:decimal-leading-zero;
+padding:2px 0px 2px 0px;
+}
+
+#LinkList1 > div > ul > li > a{
+color: #b32b15;
+}
+
+#LinkList1 > div > ul > li > a:hover{
+background-color: #f8961e;
+color: white;
+}
+
+/*.comments, .embed{
+background-color: #ffffffcc;
+}*/
+
+.comment-form > iframe{
+  background-color: white;
+  border-style: dotted;
+  border-width: 2px;
+}
+
+#Image2 > div > a >img{
+position: fixed;
+bottom: 2px;
+right: 2px;
+height: 50px;
+width: 50px;
+opacity:0.5;
+}
+
+#Image2 > div > a >img:hover{
+opacity:1;
+}
+
+@media only screen and (min-width: 1160px){
+ #LinkList1 > div > ul{
+ background-color: #ffefac;
+ margin:0px 100px 0px 100px;
+ }
+
+ #LinkList1 > div > ul > li{
+ padding:4px 0px 4px 0px;
+ }
+}
